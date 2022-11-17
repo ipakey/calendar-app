@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Kalam:wght@300&family=Petit+Formal+Script&family=Romanesco&family=Satisfy&display=swap" rel="stylesheet">
+    
+    <title>calender app . Yfke</title>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="description" content="SEO info">
+    <link rel="stylesheet" href="../calendar app/functionality/style.css">
+    <title>Yfke . Calender</title>
+</head>
+<body>
+    <header>
+        <h1>1st Kettering Scouts . Digital Maker Badges 2022/3</h1>
+    </header>
+        <h2>Yfkes Todo using local storage</h2>
+
+        
+        <p>This is sample text to test the fonts that I'd love to use for this website.</p>
+
+
+    <main class="app">
+        <section class="greeting">
+        
+            <h3 class="title">Whas'up
+                 <input type="text" id="name" placeholder="Name here">dude!
+            </h3>
+        </section>
+        <section class="create-todo">
+<section class="input-task">
+    <h4>What you adding to your todo list?</h4>
+    <input type="text" name="content" id="content" placeholder="e.g. make a video">
+</section>
+
+            <section class="buttons">
+                <h4>Pick a Catagory</h4>
+            <div class="options">
+                <label>
+                    <input type="radio" name="category" id="category1" value="stage-one">
+                    <span class="bubble stage-one"></span>
+                    <div>Stage One</div>
+                </label>
+
+                <label>
+                    <input type="radio" name="category" id="category1" value="stage-two">
+                    <span class="bubble stage-two"></span>
+                    <div>Stage Two</div>
+                </label>
+
+                <label>
+                    <input type="radio" name="category" id="category1" value="stage-three">
+                    <span class="bubble stage-three"></span>
+                    <div>Stage Three</div>
+                </label>
+
+            </div>
+            </section>
+            <input type="submit" value="Add ToDo" class="title"/>
+            
+        </section>
+
+
+        <section class="toDoList">
+            <h3>My To-do List</h3>
+            <div class="list" id="todo-list">
+                <div class="toDoItem">
+                    <label>
+                        <input type="checkbox" />
+                        <span class="bubble business"></span>
+                    </label>
+                    <div class="toDoContent">
+                        <input type="text" value="Make a video" readonly />
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                        <button type="radio" id="status" name="status"></button>
+                        <label for="status" value="not started" default ></label>
+
+                    </div>
+                </div>
+
+                <div class="toDoItem">
+                    <label>
+                        <input type="checkbox" />
+                        <span class="bubble personal"></span>
+                    </label>
+                    <div class="toDoContent">
+                        <input type="text" value="get milk" readonly />
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                        <button type="radio" id="status" name="status"></button>
+                        <label for="status" value="not started" default ></label>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+
+    </main>
+
+
+    <footer>
+        <p>&copy; <img src="assets/branding/yfke_logo2_boarder_100.png" alt="Yfkes logo"></p>
+    </footer>
+    <script src="/functionality/script.js"></script>
+</body>
+</html>
