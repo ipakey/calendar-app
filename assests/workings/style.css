@@ -45,8 +45,7 @@ footer{
 }
 h4{
     font: var(--fnt-text);
-    font-style: italic;
-    font-size: 1.5rem;
+    font-size: 2.8rem;
     text-transform:none;
     padding: 0.5rem;
     margin-bottom: 1rem;
@@ -54,10 +53,11 @@ h4{
 h5{
     font: var(--fnt-text);
     font-style: italic;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-transform:none;
     padding: 0.5rem;
     margin-bottom: 1rem;
+    opacity: 0.8;
 }
 
 p{
@@ -70,6 +70,8 @@ p{
 
 .naviIcon{
     background-color: var(--clr-turquoise);
+    border-radius: 50%;
+    margin: 2rem;
 }
 
 /* ? Classes  */
@@ -88,7 +90,6 @@ p{
     height: 52rem;
     background-color: var(--clr-pine-green);
     box-shadow: 0.5rem 3rem rgba(0,0,0,0.4);
-   
 }
 
 
@@ -103,28 +104,26 @@ p{
 
 .date{
     display: flex;
-    /* width: 65%; */
     height: 12rem;
     justify-content: space-between;
     align-items: center;
     padding: 0  2rem;
     text-align: center;
-    /* margin: auto;
-     */
     text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.5);
 }
 
 .month{
-   width: 100%;
+    display: flex;
+    width: 100%;
     height: 12rem;
     justify-content: space-between;
     align-items: center;
-    padding: 0  2rem;
+    padding: 0  .2rem;
     text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.5);
 }
 
-.month i{
-    cursor: pointer;
+.month img{
+    cursor: pointer;  
     font-size: 2.5rem;
 }
 
